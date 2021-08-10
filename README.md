@@ -16,7 +16,7 @@
 
   [ x ] Não é permitido cadastrar TAG sem nome
 
-  [ ] Não é permitido o cadastro por usuários que nao sejam administradores.
+  [ x ] Não é permitido o cadastro por usuários que nao sejam administradores.
 
 ---
 

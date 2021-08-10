@@ -7,7 +7,6 @@ import {
 } from "typeorm";
 
 import { v4 as uuid } from "uuid";
-
 @Entity("users")
 class User {
   @PrimaryColumn()
@@ -21,6 +20,9 @@ class User {
 
   @Column()
   admin: boolean;
+
+  @Column()
+  password: string;
 
   @CreateDateColumn()
   created_at: Date;
