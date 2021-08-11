@@ -31,6 +31,4 @@ export function ensureAuthenticated(
   } catch (error) {
     return res.status(401).end();
   }
-
-  return next();
 }
